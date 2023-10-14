@@ -62,7 +62,6 @@ def to_do_list():
         4- edit tasks.
         5- Quit.
         ''')
-
         choice = int(input('please select from the list above:\n'))
         if choice == 1:
             add_task()
